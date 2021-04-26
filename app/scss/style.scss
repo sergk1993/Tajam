@@ -90,7 +90,36 @@
 
 
 
-
+.story{
+    padding: 70px 0;
+    &__inner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__img{
+        min-width: 230px;
+        height: 235px; 
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 40px;
+    }
+    &__info{
+        max-width: 550px;
+        margin-left: auto;
+    }
+    &__title{
+        @extend %playbold;
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    &__text{
+        margin-bottom: 30px;
+        color:#696771;
+    }
+}
 
 
 
