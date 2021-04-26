@@ -24,3 +24,14 @@ a{
     text-decoration: none;
 }
 
+.btn{
+        text-transform: uppercase;
+        color: #00e0d0;
+        @extend %hammernorm;
+        font-size: 16px;
+        line-height: 18px;
+        width: 118px;
+        border: 1px solid #00e0d0;
+        padding: 12px 0;
+        display: inline-block;
+}
