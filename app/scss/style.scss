@@ -127,7 +127,6 @@
     text-align: center;
     color: #fff;
     min-height: 550px;
-    padding: 190px 0;
     margin-bottom: 70px;
     position: relative;
     &__box{
@@ -160,23 +159,7 @@
         line-height: 25px;
         text-align: center;
     }
-    &__text{
-        text-align: center;
-        padding-bottom: 20px;
-        position: relative;
-        margin-bottom: 40px;
-        &::after{
-            position: absolute;
-            content: '';
-            width: 50px;
-            height: 2px;
-            background-color: #c6c4c9;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            margin: 0 auto;
-        }
-    }
+
     &__inner{
         display: flex;
         flex-wrap: wrap;
@@ -218,7 +201,62 @@
 }
 
 
-
+.team{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px 0;
+    color: #fff;
+    &__title{
+        text-align: center;
+        @extend %playbold;
+        margin-bottom: 15px;
+    }
+    &__text{
+        @extend %playnorm;
+    }
+    &__inner{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__box{
+        text-align: center;
+        margin: 0 10px;
+        margin-bottom: 60px;
+    }
+    &__img{
+        width: 220px;
+        height: 230px;
+        object-fit: cover;
+        object-position: center;
+    }
+    &__box-info{
+        border: 1px solid #76758a;
+        margin: -7px 0;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+    &__box-title{
+        margin-bottom: 10px;
+        @extend %robblack;
+    }
+    &__box-text{
+        color: #8e8da1;
+        @extend %roblight;
+    }
+    &__footer{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    &__subtext{
+        color: #f3f3f3;
+        margin-bottom: 25px;
+    }
+    &__btn{
+        width: 140px;
+    }
+}
 
 
 
