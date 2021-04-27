@@ -95,16 +95,16 @@
     .menu--active{
         transform: translateY(0);
     }
-    .menu__lists{
-        font-size: 40px;
-        line-height: 45px;
-        margin-bottom: 20px;
+    .menu__lists {
+        font-size: 20px;
+        line-height: 25px;
     }
     .menu__lists +.menu__lists{
         padding-left: 0;
     }
     .menu__link{
      display: block;
+     padding: 10px;
     }
 }
 
@@ -166,5 +166,8 @@
     }
     .menu__link{
         padding: 7px;
+    }
+    .header__slider-btn {
+        margin-bottom: 5px;
     }
 }
