@@ -453,7 +453,108 @@
     }
 }
 
-
+.footer{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 90px 60px;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+    &__info{
+        max-width: 280px;
+    }
+    &__info-img{
+        margin-bottom: 10px;
+    }
+    &__contact{
+        max-width: 280px;
+    }
+    &__contact-title{
+        @extend %robbold;
+        font-size: 15px;
+        line-height: 20px;
+        padding-top: 18px;
+        margin-bottom: 30px;
+    }
+    &__contact-text{
+        padding-left: 30px;
+        position: relative;
+        margin-bottom: 20px;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 14px;
+            height: 19px;
+            left: 0;
+            top: 1px;
+            background-image: url(../images/footer-icons-1.png);
+        }
+    }
+    &__contact-phone{
+        padding-left: 30px;
+        color: #fff;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 17px;
+            height: 17px;
+            left: 0;
+            top: 1px;
+            background-image: url(../images/footer-icons-2.png);
+        }
+    }
+    &__icons-title{
+        @extend %robbold;
+        font-size: 15px;
+        line-height: 20px;
+        padding-top: 18px;
+        margin-bottom: 35px;
+    }
+    &__input{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    &__icons-input{
+        background-color: transparent;
+        border: 1px solid #9b9dbb;
+        padding: 16px;
+        width: 210px;
+    }
+    &__input-link{
+        display: inline-flex;
+        height: 50px;
+    }
+    &__input-img{
+        margin-left: 10px;
+        padding: 10px 20px;
+        background-color: rgba(#fff, 0.502);
+        height: 50px;
+    }
+    &__icons-link + .footer__icons-link{
+        margin-left: 8px;
+    }
+    &__down{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__down-list{
+        display: flex;
+        text-transform: uppercase;
+    }
+    &__down-lists + .footer__down-lists{
+        padding-left: 30px;
+    }
+    &__down-link{
+        color: #fff;
+    }
+}
 
 
 
