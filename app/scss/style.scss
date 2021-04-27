@@ -364,10 +364,6 @@
         height: 100px;
         margin:0 auto;
     }
-    &__sub{
-        height: 80px;
-    }
-    
     .slick-slide{
         display: flex;
         justify-content: center;
@@ -380,7 +376,7 @@
         transform: translateY(-17%)
     } 
     .slick-track {
-        height: 316px;
+       padding-top: 15px;
     }
     .employees__arrow{
         position: absolute;
