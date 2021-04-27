@@ -1,5 +1,5 @@
 @media(max-width:1000px){
-
+    
 }
 
 @media(max-width:900px){
@@ -23,7 +23,12 @@
         max-width: 100%;
         border: none;
     }
-    
+    .client__inner{
+        display: block;
+    }
+    .client__form{
+        max-width: 100%;
+    }
 }
 
 
@@ -114,5 +119,12 @@
     }
     .works__box-btn{
         margin-bottom: 50px;
+    }
+    
+    .client__firms-title{
+        grid-column: 1;
+        text-align: center;
+        width: 240px;
+        margin: 0 auto;
     }
 }

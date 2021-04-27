@@ -30,7 +30,7 @@ $('.employees__slider-sub').slick({
           }
         },
           {
-            breakpoint: 700,
+            breakpoint: 750,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
