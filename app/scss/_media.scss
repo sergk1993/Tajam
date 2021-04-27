@@ -32,6 +32,13 @@
         margin: 0 auto;
         margin-bottom: 40px;
     }
+    .story__title{
+        text-align: center;
+    }
+    .story__btn {
+        display: block;
+        margin: 0 auto;
+    }
     .video{
         max-height: 450px;
     }
@@ -45,6 +52,10 @@
     }
     .client__form{
         max-width: 100%;
+    }
+    .client__btn {
+        display: block;
+        margin: 0 auto;
     }
     .header__top{
         margin-bottom: 50px;
