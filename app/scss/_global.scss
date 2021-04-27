@@ -43,6 +43,11 @@ a{
         border: 1px solid #00e0d0;
         padding: 12px 0;
         display: inline-block;
+        transition: background-color .3s;
+        &:hover{
+          background-color: #00e0d0;
+          color: #fff;  
+        }
 }
 
 .text--line{
