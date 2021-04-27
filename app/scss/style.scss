@@ -8,6 +8,9 @@
     background-repeat: no-repeat;
     background-position: center;
     min-height: 650px;
+    &__btn{
+        display: none;
+    }
     &__top{
         display: flex;
         justify-content: space-between;
@@ -558,6 +561,7 @@
     &__down-link{
         color: #fff;
     }
+    
 }
 
 
