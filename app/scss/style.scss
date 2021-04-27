@@ -74,6 +74,9 @@
 }
 
 .menu{
+    &__list{
+        display: flex;
+    }
     &__lists{
         @extend %robblack;
         text-transform: uppercase;
