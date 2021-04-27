@@ -2,6 +2,21 @@
 
 }
 
+@media(max-width:900px){
+    .story__info{
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .story__inner{
+        display: block;
+    }
+    .story__img{
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+}
+
 
 
 @media(max-width:750px){
