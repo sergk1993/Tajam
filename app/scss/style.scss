@@ -222,7 +222,7 @@
     }
     &__box{
         text-align: center;
-        margin: 0 10px;
+        margin: 0 5px;
         margin-bottom: 60px;
     }
     &__img{
@@ -525,6 +525,10 @@
         border: 1px solid #9b9dbb;
         padding: 16px;
         width: 210px;
+        color: #fff;
+        &::placeholder{
+            color: #fff;
+        }
     }
     &__input-link{
         display: inline-flex;
