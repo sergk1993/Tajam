@@ -438,6 +438,9 @@
             text-transform: uppercase;
         }
     }
+    &__btn{
+        background-color: #fff;
+    }
     &__firms{
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
