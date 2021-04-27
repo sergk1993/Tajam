@@ -102,4 +102,15 @@
     .products {
         margin-bottom: 50px;
     }
+    .works__lists{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .works__title{
+        margin-bottom: 20px;
+    }
+    .works__box-btn{
+        margin-bottom: 50px;
+    }
 }
