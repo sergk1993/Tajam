@@ -15,6 +15,9 @@
         margin: 0 auto;
         margin-bottom: 40px;
     }
+    .video{
+        max-height: 450px;
+    }
 }
 
 
@@ -75,5 +78,16 @@
     }
     .menu__link{
      display: block;
+    }
+    
+}
+
+@media(max-width:500px){
+    .video{
+        min-height: 360px;
+        margin-bottom: 50px;
+    }
+    .story {
+        padding: 70px 0 50px 0;
     }
 }
