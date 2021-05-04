@@ -1,1 +1,1 @@
-# Сделанный сайт https://sergk1993.github.io/Tajam/app/
+# Сделанный сайт https://sergk1993.github.io/Tajam/dist/
